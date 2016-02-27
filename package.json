@@ -1,0 +1,17 @@
+{
+  "name": "liquibase-js",
+  "version": "0.0.1",
+  "description": "Port Liquibase Framework to NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "sql",
+    "liquibase",
+    "database",
+    "management"
+  ],
+  "author": "Oleg Taranenko",
+  "license": "MIT"
+}
