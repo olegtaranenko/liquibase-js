@@ -1,17 +1,38 @@
 {
-  "name": "liquibase-js",
-  "version": "0.0.1",
-  "description": "Port Liquibase Framework to NodeJs",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
+  "name":"liquibase-js",
+  "description":"Port Liquibase to JavaSript for using under Node JS",
+  "version":"0.0.1",
+  "homepage":"http://github.com/olegtaranenko/liquibase-js",
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/olegtaranenko/liquibase-js.git"
   },
+
   "keywords": [
     "sql",
     "liquibase",
     "database",
     "management"
   ],
-  "author": "Oleg Taranenko",
+  "author":"Oleg Taranenko <olegtaranenko@gmail.com>",
+  "main":"./index.js",
+
+  "dependencies":{
+    "sqlite3":"*",
+    "mysql": "*",
+    "sencha-touch": "*",
+    "insistent-js": "*"
+  },
+  "devDependencies":{
+    "mocha":"*",
+    "should":"*"
+  },
+  "scripts":{
+    "test":"mocha --reporter spec"
+  },
+  "engines":{
+    "node":">=0.6"
+  },
   "license": "MIT"
 }

@@ -2,3 +2,4 @@
 .idea/vcs.xml
 lib/Ext
 *.log
+/node_modules
